@@ -22,7 +22,7 @@ function About() {
             <strong className="text-purple-500">
               Best, Prompt & On-Time service
             </strong>{" "}
-            for all their DG’s.
+            for all their DG's.
           </p>
           <br />
           <p>
