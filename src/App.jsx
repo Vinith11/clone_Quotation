@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Node from "./components/Node";
 import About from "./components/About";
-import TermsAndCond from "./components/TermsAndCond.";
+import TermsAndCond from "./components/TermsAndCond";
 function App() {
 
   return (
