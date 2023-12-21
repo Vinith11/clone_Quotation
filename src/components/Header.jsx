@@ -5,7 +5,8 @@ import Companyies from "../assets/Companyies.png";
 function Header() {
   return (
     <>
-      <div className="pt-6 border-b-2 border-black">
+    <div style={{height:"40vh"}}>
+      <div className="pt-2 border-b-2 border-black w-full">
         <img
           src={header}
           alt="Header Image"
@@ -13,10 +14,10 @@ function Header() {
         />
       </div>
 
-      <div className="pt-4 border-b-2 border-black">
+      <div className="pt-4 border-b-2 border-black w-full">
         <img src={Companyies} alt="Header Image" />
       </div>
-      <h1 className="pt-6 pb-10 text-4xl font-bold underline">Quotation</h1>
+      <h1 className="pt-3 pb-4 text-3xl font-bold underline">Quotation</h1>
 
       <p className="text-left text-lg pt-2">
         Dear Sir,
@@ -24,6 +25,7 @@ function Header() {
         We thank you very much for your valuable enquiry and we are pleased to
         give you the best price for supply of the DG.
       </p>
+      </div>
     </>
   );
 }

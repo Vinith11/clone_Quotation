@@ -3,8 +3,8 @@ import React from 'react'
 function TermsAndCond() {
   return (
     <>
-    <div className="ml-12">
-            <h1 className="text-3xl font-bold underline mb-4 pt-8 text-center">
+    <div className="border border-black" style={{height:"95vh"}}>
+            <h1 className="text-2xl font-bold underline mb-4 text-center pt-8">
               OUR OFFER IS SUBJECT TO THE FOLLOWING TERMS & CONDITIONS:
             </h1>
             <div className="text-left m-3">
@@ -28,7 +28,7 @@ function TermsAndCond() {
                     <p className="mb-2">
                       : 100% payment along with the order by RTGS to our
                     </p>
-                    <p className="font-bold underline text-2xl mb-4">
+                    <p className="font-bold underline text-xl mb-4">
                       Progressive Traders
                     </p>
                     <p className="font-bold">A/c. No. : 471505040000135</p>

@@ -4,7 +4,7 @@ export default function Node() {
   return (
     <>
       <div>
-        <h1 className="text-left pt-6 pb-10 italic text-4xl font-bold underline">
+        <h1 className="text-left italic text-2xl font-bold underline px-1 py-3">
           ASHOK LEYLAND Make:
         </h1>
         <div className="border border-black p-4 max-w-5xl">
@@ -44,13 +44,14 @@ export default function Node() {
           </div>
         </div>
 
-        <p className="text-left text-2xl text-red-500 italic mt-4 pb-20">
+        <p className="text-left text-xl text-red-500 italic mt-4 pb-14">
           <strong>Transportation from factory, Extra at Actuals:</strong>{" "}
           Approx. Rs. 5,000 - 7,000
         </p>
       </div>
-      <div>
-        <h1 className="text-left pt-6 pb-10 italic text-4xl font-bold underline">
+
+      <div style={{height:"100vh"}} className="border border-black p-2">
+        <h1 className="text-left pt-6 pb-10 italic text-2xl font-bold underline">
           VOLVO-EICHER Make:
         </h1>
         <div className="border border-black p-4 max-w-5xl">
@@ -90,7 +91,7 @@ export default function Node() {
           </div>
         </div>
 
-        <p className="text-left text-2xl text-red-500 italic mt-4 pb-20">
+        <p className="text-left text-xl text-red-500 italic mt-4 pb-14">
           <strong>Transportation from factory, Extra at Actuals:</strong>{" "}
           Approx. Rs. 5,000 - 7,000
         </p>

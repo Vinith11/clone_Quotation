@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       {/* Page 1*/}
-      <div className="w-210 h-297 border border-solid border-black">
+      <div className="w-210 h-297 p-3">
         <div className="flex flex-col items-center space-y-4">
           <Header/>
           <Node/>
