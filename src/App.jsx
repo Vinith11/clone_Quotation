@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Node from "./components/Node";
 import About from "./components/About";
 import TermsAndCond from "./components/TermsAndCond";
+import ProductForm from "./components/ProductForm";
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Node/>
           <About />
           <TermsAndCond />
+          <ProductForm/>
 
         </div>
       </div>

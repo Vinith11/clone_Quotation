@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <div style={{height:"97vh"}} className="border border-black p-2">
+      <div style={{height:"97vh"}} className="">
         <div className="text-left ">
           <h1 className="text-4xl font-bold underline mb-4 pt-10 text-center">
             ABOUT US

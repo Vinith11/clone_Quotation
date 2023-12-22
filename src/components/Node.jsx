@@ -50,7 +50,7 @@ export default function Node() {
         </p>
       </div>
 
-      <div style={{height:"100vh"}} className="border border-black p-2">
+      <div style={{height:"100vh"}} className="">
         <h1 className="text-left pt-6 pb-10 italic text-2xl font-bold underline">
           VOLVO-EICHER Make:
         </h1>

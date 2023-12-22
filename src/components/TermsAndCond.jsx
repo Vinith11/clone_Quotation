@@ -3,7 +3,7 @@ import React from 'react'
 function TermsAndCond() {
   return (
     <>
-    <div className="border border-black" style={{height:"95vh"}}>
+    <div className="" style={{height:"95vh"}}>
             <h1 className="text-2xl font-bold underline mb-4 text-center pt-8">
               OUR OFFER IS SUBJECT TO THE FOLLOWING TERMS & CONDITIONS:
             </h1>
